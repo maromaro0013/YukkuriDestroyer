@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71B8AE1C19FDE57200F87E65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE1B19FDE57200F87E65 /* main.m */; };
+		71B8AE1F19FDE57200F87E65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE1E19FDE57200F87E65 /* AppDelegate.m */; };
+		71B8AE2219FDE57200F87E65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE2119FDE57200F87E65 /* ViewController.m */; };
+		71B8AE2519FDE57200F87E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B8AE2319FDE57200F87E65 /* Main.storyboard */; };
+		71B8AE2719FDE57200F87E65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B8AE2619FDE57200F87E65 /* Images.xcassets */; };
+		71B8AE2A19FDE57200F87E65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B8AE2819FDE57200F87E65 /* LaunchScreen.xib */; };
+		71B8AE3619FDE57200F87E65 /* YukkuriDestroyerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE3519FDE57200F87E65 /* YukkuriDestroyerTests.m */; };
+		71B8AE4719FDF22F00F87E65 /* number_4.pvr in Resources */ = {isa = PBXBuildFile; fileRef = 71B8AE4519FDF22F00F87E65 /* number_4.pvr */; };
+		71B8AE4819FDF22F00F87E65 /* yukkuri_4.pvr in Resources */ = {isa = PBXBuildFile; fileRef = 71B8AE4619FDF22F00F87E65 /* yukkuri_4.pvr */; };
+		71B8AE5319FDF23A00F87E65 /* NumberGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE4A19FDF23A00F87E65 /* NumberGroup.m */; };
+		71B8AE5419FDF23A00F87E65 /* PartsBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE4C19FDF23A00F87E65 /* PartsBase.m */; };
+		71B8AE5519FDF23A00F87E65 /* PtNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE4E19FDF23A00F87E65 /* PtNumber.m */; };
+		71B8AE5619FDF23A00F87E65 /* PtYukkuri.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE5019FDF23A00F87E65 /* PtYukkuri.m */; };
+		71B8AE5719FDF23A00F87E65 /* YukkuriGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE5219FDF23A00F87E65 /* YukkuriGroup.m */; };
+		71B8AE5C19FDF24900F87E65 /* PVRTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE5919FDF24900F87E65 /* PVRTexture.m */; };
+		71B8AE5D19FDF24900F87E65 /* TextureData.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE5B19FDF24900F87E65 /* TextureData.m */; };
+		71B8AE6219FDF29A00F87E65 /* matrix2.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE5F19FDF29A00F87E65 /* matrix2.m */; };
+		71B8AE6319FDF29A00F87E65 /* vector2.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE6119FDF29A00F87E65 /* vector2.m */; };
+		71B8AE6A19FDF2B400F87E65 /* GLESdraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE6519FDF2B400F87E65 /* GLESdraw.m */; };
+		71B8AE6B19FDF2B400F87E65 /* GLESdrawWithParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE6719FDF2B400F87E65 /* GLESdrawWithParts.m */; };
+		71B8AE6C19FDF2B400F87E65 /* GLEShelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE6919FDF2B400F87E65 /* GLEShelper.m */; };
+		71B8AE7119FE14A000F87E65 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AE7019FE14A000F87E65 /* GameManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71B8AE3019FDE57200F87E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71B8AE0E19FDE57200F87E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71B8AE1519FDE57200F87E65;
+			remoteInfo = YukkuriDestroyer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71B8AE1619FDE57200F87E65 /* YukkuriDestroyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YukkuriDestroyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B8AE1A19FDE57200F87E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B8AE1B19FDE57200F87E65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71B8AE1D19FDE57200F87E65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71B8AE1E19FDE57200F87E65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71B8AE2019FDE57200F87E65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71B8AE2119FDE57200F87E65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71B8AE2419FDE57200F87E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71B8AE2619FDE57200F87E65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71B8AE2919FDE57200F87E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		71B8AE2F19FDE57200F87E65 /* YukkuriDestroyerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YukkuriDestroyerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B8AE3419FDE57200F87E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B8AE3519FDE57200F87E65 /* YukkuriDestroyerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukkuriDestroyerTests.m; sourceTree = "<group>"; };
+		71B8AE4519FDF22F00F87E65 /* number_4.pvr */ = {isa = PBXFileReference; lastKnownFileType = file; name = number_4.pvr; path = Images/number_4.pvr; sourceTree = "<group>"; };
+		71B8AE4619FDF22F00F87E65 /* yukkuri_4.pvr */ = {isa = PBXFileReference; lastKnownFileType = file; name = yukkuri_4.pvr; path = Images/yukkuri_4.pvr; sourceTree = "<group>"; };
+		71B8AE4919FDF23A00F87E65 /* NumberGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumberGroup.h; path = Parts/NumberGroup.h; sourceTree = "<group>"; };
+		71B8AE4A19FDF23A00F87E65 /* NumberGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NumberGroup.m; path = Parts/NumberGroup.m; sourceTree = "<group>"; };
+		71B8AE4B19FDF23A00F87E65 /* PartsBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PartsBase.h; path = Parts/PartsBase.h; sourceTree = "<group>"; };
+		71B8AE4C19FDF23A00F87E65 /* PartsBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PartsBase.m; path = Parts/PartsBase.m; sourceTree = "<group>"; };
+		71B8AE4D19FDF23A00F87E65 /* PtNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PtNumber.h; path = Parts/PtNumber.h; sourceTree = "<group>"; };
+		71B8AE4E19FDF23A00F87E65 /* PtNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PtNumber.m; path = Parts/PtNumber.m; sourceTree = "<group>"; };
+		71B8AE4F19FDF23A00F87E65 /* PtYukkuri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PtYukkuri.h; path = Parts/PtYukkuri.h; sourceTree = "<group>"; };
+		71B8AE5019FDF23A00F87E65 /* PtYukkuri.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PtYukkuri.m; path = Parts/PtYukkuri.m; sourceTree = "<group>"; };
+		71B8AE5119FDF23A00F87E65 /* YukkuriGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YukkuriGroup.h; path = Parts/YukkuriGroup.h; sourceTree = "<group>"; };
+		71B8AE5219FDF23A00F87E65 /* YukkuriGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YukkuriGroup.m; path = Parts/YukkuriGroup.m; sourceTree = "<group>"; };
+		71B8AE5819FDF24900F87E65 /* PVRTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVRTexture.h; path = Texture/PVRTexture.h; sourceTree = "<group>"; };
+		71B8AE5919FDF24900F87E65 /* PVRTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVRTexture.m; path = Texture/PVRTexture.m; sourceTree = "<group>"; };
+		71B8AE5A19FDF24900F87E65 /* TextureData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextureData.h; path = Texture/TextureData.h; sourceTree = "<group>"; };
+		71B8AE5B19FDF24900F87E65 /* TextureData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextureData.m; path = Texture/TextureData.m; sourceTree = "<group>"; };
+		71B8AE5E19FDF29A00F87E65 /* matrix2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = matrix2.h; path = Math/matrix2.h; sourceTree = "<group>"; };
+		71B8AE5F19FDF29A00F87E65 /* matrix2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = matrix2.m; path = Math/matrix2.m; sourceTree = "<group>"; };
+		71B8AE6019FDF29A00F87E65 /* vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vector2.h; path = Math/vector2.h; sourceTree = "<group>"; };
+		71B8AE6119FDF29A00F87E65 /* vector2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = vector2.m; path = Math/vector2.m; sourceTree = "<group>"; };
+		71B8AE6419FDF2B400F87E65 /* GLESdraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLESdraw.h; path = GLES/GLESdraw.h; sourceTree = "<group>"; };
+		71B8AE6519FDF2B400F87E65 /* GLESdraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLESdraw.m; path = GLES/GLESdraw.m; sourceTree = "<group>"; };
+		71B8AE6619FDF2B400F87E65 /* GLESdrawWithParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLESdrawWithParts.h; path = GLES/GLESdrawWithParts.h; sourceTree = "<group>"; };
+		71B8AE6719FDF2B400F87E65 /* GLESdrawWithParts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLESdrawWithParts.m; path = GLES/GLESdrawWithParts.m; sourceTree = "<group>"; };
+		71B8AE6819FDF2B400F87E65 /* GLEShelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLEShelper.h; path = GLES/GLEShelper.h; sourceTree = "<group>"; };
+		71B8AE6919FDF2B400F87E65 /* GLEShelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLEShelper.m; path = GLES/GLEShelper.m; sourceTree = "<group>"; };
+		71B8AE6D19FDF37900F87E65 /* display_default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = display_default.h; sourceTree = "<group>"; };
+		71B8AE6F19FE14A000F87E65 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameManager.h; path = Game/GameManager.h; sourceTree = "<group>"; };
+		71B8AE7019FE14A000F87E65 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameManager.m; path = Game/GameManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71B8AE1319FDE57200F87E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B8AE2C19FDE57200F87E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71B8AE0D19FDE57200F87E65 = {
+			isa = PBXGroup;
+			children = (
+				71B8AE6E19FE141E00F87E65 /* Game */,
+				71B8AE4419FDF21500F87E65 /* Images */,
+				71B8AE4319FDF0FB00F87E65 /* Parts */,
+				71B8AE4219FDF0E800F87E65 /* Texture */,
+				71B8AE4119FDF0DA00F87E65 /* Math */,
+				71B8AE3F19FDF06300F87E65 /* GLES */,
+				71B8AE1819FDE57200F87E65 /* YukkuriDestroyer */,
+				71B8AE3219FDE57200F87E65 /* YukkuriDestroyerTests */,
+				71B8AE1719FDE57200F87E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71B8AE1719FDE57200F87E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71B8AE1619FDE57200F87E65 /* YukkuriDestroyer.app */,
+				71B8AE2F19FDE57200F87E65 /* YukkuriDestroyerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71B8AE1819FDE57200F87E65 /* YukkuriDestroyer */ = {
+			isa = PBXGroup;
+			children = (
+				71B8AE6D19FDF37900F87E65 /* display_default.h */,
+				71B8AE1D19FDE57200F87E65 /* AppDelegate.h */,
+				71B8AE1E19FDE57200F87E65 /* AppDelegate.m */,
+				71B8AE2019FDE57200F87E65 /* ViewController.h */,
+				71B8AE2119FDE57200F87E65 /* ViewController.m */,
+				71B8AE2319FDE57200F87E65 /* Main.storyboard */,
+				71B8AE2619FDE57200F87E65 /* Images.xcassets */,
+				71B8AE2819FDE57200F87E65 /* LaunchScreen.xib */,
+				71B8AE1919FDE57200F87E65 /* Supporting Files */,
+			);
+			path = YukkuriDestroyer;
+			sourceTree = "<group>";
+		};
+		71B8AE1919FDE57200F87E65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71B8AE1A19FDE57200F87E65 /* Info.plist */,
+				71B8AE1B19FDE57200F87E65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71B8AE3219FDE57200F87E65 /* YukkuriDestroyerTests */ = {
+			isa = PBXGroup;
+			children = (
+				71B8AE3519FDE57200F87E65 /* YukkuriDestroyerTests.m */,
+				71B8AE3319FDE57200F87E65 /* Supporting Files */,
+			);
+			path = YukkuriDestroyerTests;
+			sourceTree = "<group>";
+		};
+		71B8AE3319FDE57200F87E65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71B8AE3419FDE57200F87E65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71B8AE3F19FDF06300F87E65 /* GLES */ = {
+			isa = PBXGroup;
+			children = (
+				71B8AE6419FDF2B400F87E65 /* GLESdraw.h */,
+				71B8AE6519FDF2B400F87E65 /* GLESdraw.m */,
+				71B8AE6619FDF2B400F87E65 /* GLESdrawWithParts.h */,
+				71B8AE6719FDF2B400F87E65 /* GLESdrawWithParts.m */,
+				71B8AE6819FDF2B400F87E65 /* GLEShelper.h */,
+				71B8AE6919FDF2B400F87E65 /* GLEShelper.m */,
+			);
+			name = GLES;
+			sourceTree = "<group>";
+		};
+		71B8AE4119FDF0DA00F87E65 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				71B8AE5E19FDF29A00F87E65 /* matrix2.h */,
+				71B8AE5F19FDF29A00F87E65 /* matrix2.m */,
+				71B8AE6019FDF29A00F87E65 /* vector2.h */,
+				71B8AE6119FDF29A00F87E65 /* vector2.m */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		71B8AE4219FDF0E800F87E65 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				71B8AE5819FDF24900F87E65 /* PVRTexture.h */,
+				71B8AE5919FDF24900F87E65 /* PVRTexture.m */,
+				71B8AE5A19FDF24900F87E65 /* TextureData.h */,
+				71B8AE5B19FDF24900F87E65 /* TextureData.m */,
+			);
+			name = Texture;
+			sourceTree = "<group>";
+		};
+		71B8AE4319FDF0FB00F87E65 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				71B8AE4919FDF23A00F87E65 /* NumberGroup.h */,
+				71B8AE4A19FDF23A00F87E65 /* NumberGroup.m */,
+				71B8AE4B19FDF23A00F87E65 /* PartsBase.h */,
+				71B8AE4C19FDF23A00F87E65 /* PartsBase.m */,
+				71B8AE4D19FDF23A00F87E65 /* PtNumber.h */,
+				71B8AE4E19FDF23A00F87E65 /* PtNumber.m */,
+				71B8AE4F19FDF23A00F87E65 /* PtYukkuri.h */,
+				71B8AE5019FDF23A00F87E65 /* PtYukkuri.m */,
+				71B8AE5119FDF23A00F87E65 /* YukkuriGroup.h */,
+				71B8AE5219FDF23A00F87E65 /* YukkuriGroup.m */,
+			);
+			name = Parts;
+			sourceTree = "<group>";
+		};
+		71B8AE4419FDF21500F87E65 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				71B8AE4519FDF22F00F87E65 /* number_4.pvr */,
+				71B8AE4619FDF22F00F87E65 /* yukkuri_4.pvr */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		71B8AE6E19FE141E00F87E65 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				71B8AE6F19FE14A000F87E65 /* GameManager.h */,
+				71B8AE7019FE14A000F87E65 /* GameManager.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71B8AE1519FDE57200F87E65 /* YukkuriDestroyer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B8AE3919FDE57200F87E65 /* Build configuration list for PBXNativeTarget "YukkuriDestroyer" */;
+			buildPhases = (
+				71B8AE1219FDE57200F87E65 /* Sources */,
+				71B8AE1319FDE57200F87E65 /* Frameworks */,
+				71B8AE1419FDE57200F87E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YukkuriDestroyer;
+			productName = YukkuriDestroyer;
+			productReference = 71B8AE1619FDE57200F87E65 /* YukkuriDestroyer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71B8AE2E19FDE57200F87E65 /* YukkuriDestroyerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B8AE3C19FDE57200F87E65 /* Build configuration list for PBXNativeTarget "YukkuriDestroyerTests" */;
+			buildPhases = (
+				71B8AE2B19FDE57200F87E65 /* Sources */,
+				71B8AE2C19FDE57200F87E65 /* Frameworks */,
+				71B8AE2D19FDE57200F87E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71B8AE3119FDE57200F87E65 /* PBXTargetDependency */,
+			);
+			name = YukkuriDestroyerTests;
+			productName = YukkuriDestroyerTests;
+			productReference = 71B8AE2F19FDE57200F87E65 /* YukkuriDestroyerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71B8AE0E19FDE57200F87E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = mediakobo;
+				TargetAttributes = {
+					71B8AE1519FDE57200F87E65 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					71B8AE2E19FDE57200F87E65 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 71B8AE1519FDE57200F87E65;
+					};
+				};
+			};
+			buildConfigurationList = 71B8AE1119FDE57200F87E65 /* Build configuration list for PBXProject "YukkuriDestroyer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71B8AE0D19FDE57200F87E65;
+			productRefGroup = 71B8AE1719FDE57200F87E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71B8AE1519FDE57200F87E65 /* YukkuriDestroyer */,
+				71B8AE2E19FDE57200F87E65 /* YukkuriDestroyerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71B8AE1419FDE57200F87E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B8AE4819FDF22F00F87E65 /* yukkuri_4.pvr in Resources */,
+				71B8AE2519FDE57200F87E65 /* Main.storyboard in Resources */,
+				71B8AE2A19FDE57200F87E65 /* LaunchScreen.xib in Resources */,
+				71B8AE4719FDF22F00F87E65 /* number_4.pvr in Resources */,
+				71B8AE2719FDE57200F87E65 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B8AE2D19FDE57200F87E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71B8AE1219FDE57200F87E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B8AE6A19FDF2B400F87E65 /* GLESdraw.m in Sources */,
+				71B8AE5519FDF23A00F87E65 /* PtNumber.m in Sources */,
+				71B8AE6C19FDF2B400F87E65 /* GLEShelper.m in Sources */,
+				71B8AE6319FDF29A00F87E65 /* vector2.m in Sources */,
+				71B8AE5419FDF23A00F87E65 /* PartsBase.m in Sources */,
+				71B8AE2219FDE57200F87E65 /* ViewController.m in Sources */,
+				71B8AE6219FDF29A00F87E65 /* matrix2.m in Sources */,
+				71B8AE1F19FDE57200F87E65 /* AppDelegate.m in Sources */,
+				71B8AE5619FDF23A00F87E65 /* PtYukkuri.m in Sources */,
+				71B8AE5319FDF23A00F87E65 /* NumberGroup.m in Sources */,
+				71B8AE5C19FDF24900F87E65 /* PVRTexture.m in Sources */,
+				71B8AE5D19FDF24900F87E65 /* TextureData.m in Sources */,
+				71B8AE5719FDF23A00F87E65 /* YukkuriGroup.m in Sources */,
+				71B8AE7119FE14A000F87E65 /* GameManager.m in Sources */,
+				71B8AE1C19FDE57200F87E65 /* main.m in Sources */,
+				71B8AE6B19FDF2B400F87E65 /* GLESdrawWithParts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B8AE2B19FDE57200F87E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B8AE3619FDE57200F87E65 /* YukkuriDestroyerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71B8AE3119FDE57200F87E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71B8AE1519FDE57200F87E65 /* YukkuriDestroyer */;
+			targetProxy = 71B8AE3019FDE57200F87E65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71B8AE2319FDE57200F87E65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B8AE2419FDE57200F87E65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71B8AE2819FDE57200F87E65 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B8AE2919FDE57200F87E65 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71B8AE3719FDE57200F87E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71B8AE3819FDE57200F87E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71B8AE3A19FDE57200F87E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YukkuriDestroyer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71B8AE3B19FDE57200F87E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YukkuriDestroyer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71B8AE3D19FDE57200F87E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YukkuriDestroyerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YukkuriDestroyer.app/YukkuriDestroyer";
+			};
+			name = Debug;
+		};
+		71B8AE3E19FDE57200F87E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YukkuriDestroyerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YukkuriDestroyer.app/YukkuriDestroyer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71B8AE1119FDE57200F87E65 /* Build configuration list for PBXProject "YukkuriDestroyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B8AE3719FDE57200F87E65 /* Debug */,
+				71B8AE3819FDE57200F87E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B8AE3919FDE57200F87E65 /* Build configuration list for PBXNativeTarget "YukkuriDestroyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B8AE3A19FDE57200F87E65 /* Debug */,
+				71B8AE3B19FDE57200F87E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71B8AE3C19FDE57200F87E65 /* Build configuration list for PBXNativeTarget "YukkuriDestroyerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B8AE3D19FDE57200F87E65 /* Debug */,
+				71B8AE3E19FDE57200F87E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71B8AE0E19FDE57200F87E65 /* Project object */;
+}

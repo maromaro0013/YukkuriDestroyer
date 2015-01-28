@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C6FB78A0-1412-4490-B5F3-A951D4D1D865</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YukkuriDestroyer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6d30e3bb-1d2f-437f-beab-648b8b20c95b</key>
+		<string>svn+ssh://172.16.10.54/home/svn/iosrepos</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>contents/YukkuriDestroyer/YukkuriDestroyer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6d30e3bb-1d2f-437f-beab-648b8b20c95b</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6d30e3bb-1d2f-437f-beab-648b8b20c95b</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6d30e3bb-1d2f-437f-beab-648b8b20c95b</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iosrepos</string>
+		</dict>
+	</array>
+</dict>
+</plist>
